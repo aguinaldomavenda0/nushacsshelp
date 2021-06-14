@@ -1,9 +1,9 @@
 # nushacsshelp
-Código para ajudar a criar caixas bonitas
-## Informação
+Código para ajudar a criar caixas bonitas 
+
 Aplicação desenvolvida por [Aguinaldo Mavenda](http://www.mavendeveloper.my-style.in) com o objectivo de simplificar o trabalho de criar gradientes, box-shadow e border-radius.
 
- Cria o efeito que deseja de forma grafica e obtenha o codigo em css.
+ <strong>Cria o efeito que deseja de forma grafica e obtenha o codigo em css.</strong>
 
  O objectivo principal é tornar o trabalho de estilização de caixas rápido e eficaz.
 
