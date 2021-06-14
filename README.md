@@ -14,6 +14,8 @@ Aplicação desenvolvida por [Aguinaldo Mavenda](http://www.mavendeveloper.my-st
 ## Atenção
 
 - <strong>Box Shadow:</strong> para colocar sombras em caixas.
-- Border Radius: para manipular as bordas em caixas.
-- Gradient: para atribuir um gradient em caixas.
+- <strong>Border Radius:</strong> para manipular as bordas em caixas.
+- <strong>Gradient:</strong> para atribuir um gradient em caixas.
 
+## Aplicação
+<img src="http://mavendeveloper.my-style.in/box/maven/1.PNG"/>
