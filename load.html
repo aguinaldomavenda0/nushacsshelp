@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Carrengando - Aguinaldo Mavenda</title>
+		<!--link rel="stylesheet" type="text/css" href="./css/index.css"-->
+		<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+			.container-loading{
+				margin: 0px;
+				padding: 0px;
+				width: 99vw;
+				height: 98vh;
+				background: black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				animation: loadBackGround 2s infinite alternate ease-in-out;
+			}
+			.load{
+				display: flex;
+			}
+			.load div{
+				width: 50px;
+				height: 50px;
+				background: red;
+				margin: 15px;
+				border-radius: 50%;
+				animation: loadwindows 1.8s infinite alternate ease-in-out;
+			}
+			.load div:nth-child(1){
+				animation-delay: -0.9s;
+			}
+			.load div:nth-child(2){
+				animation-delay: -0.5s;
+			}
+			@keyframes loadwindows{
+				from{
+					background: linear-gradient( to right, #fdd835, #e040fb);
+					transform: translateY(-100%);
+				}
+				to{
+					background: linear-gradient( to right, #01579b, #4caf50 );
+					transform: translateY(100%);
+				}
+			}
+			@keyframes loadBackGround{
+				from{
+					background-color: #15111d;
+				}
+				to{
+					background-color: #0a1215;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<section class="container-loading">
+			<div class="load">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</section>
+		<!--script type="text/javascript" src="./js/index.js"></script-->
+	</body>
+
+</html>

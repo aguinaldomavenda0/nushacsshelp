@@ -1,0 +1,61 @@
+.container-loading.load{
+	display: none;
+}
+.container-loading{
+	height: 123vh;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	animation: loadBackGround 1.5s infinite alternate ease-in-out;
+}
+
+.load{
+	display: flex;
+}
+.load div{
+	width: 50px;
+	height: 50px;
+	background: red;
+	margin: 15px;
+	border-radius: 50%;
+	animation: loadwindows 1.8s infinite alternate ease-in-out;
+}
+.load div:nth-child(1){
+	animation-delay: -0.9s;
+}
+.load div:nth-child(2){
+	animation-delay: -0.5s;
+}
+@keyframes loadwindows{
+	from{
+		background: linear-gradient( to right, #fdd835, #e040fb);
+		transform: translateY(-100%);
+	}
+	to{
+		background: linear-gradient( to right, #01579b, #4caf50 );
+		transform: translateY(100%);
+	}
+}
+
+.container-loading h2{
+	width: 60%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+@keyframes loadBackGround{
+	from{
+		background-color: #101010;
+	}
+	to{
+		background-color: #15111d;
+	}
+}

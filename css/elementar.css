@@ -1,0 +1,58 @@
+.btn-menu,.luzes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.action-btn-power > *{
+	cursor: move;
+}
+.message-error.message{
+	background: linear-gradient( to right, #ff00008a, tomato );
+}
+.message-sucess.message{
+    background: linear-gradient( to right, #01579b, #4caf50 );
+}
+.message.active.out{
+	animation: loadMessageOut 400ms linear forwards;
+	
+}
+
+.message.active{
+	display: flex;
+	animation: loadMessage 400ms linear;
+}
+
+.message{
+	width: 300px;
+    height: 54px;
+    position: fixed;
+    left: 40px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+    display: none;
+    transition: 1s;
+}
+@keyframes loadMessage{
+	from{ 
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+@keyframes loadMessageOut{
+	from{ 
+		transform: translateY(0px);
+		opacity: 1;
+	}
+	to{
+		transform: translateY(-50px);
+		opacity: 0;
+		display: none;
+	}
+}

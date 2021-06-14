@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Box - Aguinaldo Mavenda</title>
+		<link rel="stylesheet" type="text/css" href="./css/load.css">
+		<link id="style" rel="stylesheet" type="text/css" href="./css/index1.css">
+		<link rel="stylesheet" type="text/css" href="./css/maven.css">
+		<link rel="stylesheet" type="text/css" href="./css/colors.css">
+		<link rel="stylesheet" type="text/css" href="./css/elementar.css">
+	</head>
+
+	<body>
+		<header class="container">
+			<div id="menu">
+				<ul class="menu-lista">
+					<li>	
+						<a class=" btn-menu activar shadow" href="#!"><i class="material-icons" style="padding-right: 5px;">blur_on</i>  Box Shadow</a>
+					</li>
+					<li><a class="btn-menu radius" href="#!"><i class="material-icons" style="padding-right: 5px;">brightness_1</i>Border Radius</a></li>
+					<li><a class="btn-menu gradient" href="#!"><i class="material-icons" style="padding-right: 5px;">gradient</i> Gradient</a></li>
+					<li><a class="luzes" href="#!"><i class="material-icons">brightness_6</i></a></li>
+				</ul>
+			</div>
+		</header>
+		<section class="container-loading">
+			<h2></h2>
+			<div class="load">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</section>
+		<section class="content" style="height: 100vh">
+			<!-- Container onde coloca-se edição box-shadow -->
+			<div class="box-shadow item-tab">
+				<h2>Manipulando Box-Shadow</h2>
+				
+				<div class="action">
+					<div class="controlOfColorsIndex">
+						<a href="#!" class="btnPaletControl activoAction" data-colorIndex='0'  style="background-color: #cf4225">
+							<i class="material-icons">color_lens</i>
+						</a>
+						<div class="otherControl">
+							
+						</div>
+						<a href="#!" class="btnPaletControlAdd addColorPallete">
+							<i class="material-icons">add</i>
+						</a>
+					</div>
+					<a class="action-btn-power" href="#!"><span class="btn btnShadow up">
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_up</i>
+					</span></a>
+					<div class="lateral-after">
+						<a class="action-btn-power" href="#!"><span class="btn btnShadow left">
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_left</i>
+						</span></a>
+						<div id="caixaShadow">
+							<div class="item-On-Box">	
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnShadow blurOn">
+									<i class="material-icons" style="font-size: 4rem;">blur_on</i>
+								</span></a>
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnShadow blurOff">
+									<i class="material-icons" style="font-size: 4rem;">blur_off</i>
+								</span></a>
+							</div>
+							<div class="caixaActionColorShadow">
+								<div class="paletaOfColors">
+									<div>
+										
+							<button class="a material1" data-maven='0'></button>
+							<button class="a material2" data-maven='1'></button>
+							<button class="a material3" data-maven='2'></button>
+							<button class="a material4" data-maven='3'></button>
+									</div>
+									<div>
+										
+							<button class="a material5" data-maven='4'></button>
+							<button class="a material6" data-maven='5'></button>
+							<button class="a material7" data-maven='6'></button>
+							<button class="a material8" data-maven='7'></button>
+									</div>
+									<div>
+							<button class="a material9" data-maven='8'></button>
+							<button class="a material10" data-maven='9'></button>
+							<button class="a material11" data-maven='10'></button>
+							<button class="a material12" data-maven='11'></button>
+									</div>
+									<div>
+							<button class="a material13" data-maven='12'></button>
+							<button class="a material14" data-maven='13'></button>
+							<button class="a material15" data-maven='14'></button> 
+							<button class="a material16" data-maven='15'></button>
+									</div>
+						</div>
+								<input style="padding-left: 8px;" type="text" id="colorInputS" placeholder="Cor">
+								<button id="addColorShadow"><i class="material-icons">settings_backup_restore</i></button>
+							</div>
+							<div class="item-On-Box">
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnShadow expandOn">
+									<i class="material-icons" style="font-size: 4rem;">zoom_out_map</i>
+								</span></a>
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnShadow expandOff">
+									<i class="material-icons" style="font-size: 4rem;">fullscreen_exit</i>
+								</span></a>
+							</div>
+						</div>
+						<a class="action-btn-power" href="#!"><span class="btn btnShadow right" >
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_right</i>
+						</span></a>
+						
+					</div>
+					<a class="action-btn-power" href="#!"><span class="btn btnShadow down">
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_down</i>
+					</span></a>
+				</div>
+			</div>
+
+			<!-- Container onde coloca-se edição border radius -->
+			<div class="boxRadius tab item-tab">
+				<h2>Manipulando Border-Radius</h2>
+				<div class="action">
+					<div class="topAction">
+					
+					<a class="action-btn-power"  href="#!"  style="position: relative; transform: rotate(45deg); margin-left: -95px;"><span draggable='true' class="btn btnRadius diagonalLeftOut">
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_left</i>
+						</span></a>
+						
+					<a class="action-btn-power" href="#!" style="position: relative; transform: rotate(-45deg); margin-right: -95px;"><span draggable='true' class="btn btnRadius diagonalRightOut">
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_right</i>
+					</span></a>
+					</div>
+						<div class="caixaShadow box-radius">
+							<div class="optionInvert">
+								
+							<a class="action-btn-power" href="#!" style="margin-top: 20px"><span style="width: 50%" draggable='true' class="btn btnRadius diagonalRightIn">
+									<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_down</i>
+								</span></a>
+							<div class="item-On-Box1">	
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnRadius diagonalLeftIn" draggable='true'>
+									<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_right</i>
+								</span></a>
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnRadius diagonalRightInDown" draggable='true'>
+									<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_left</i>
+								</span></a>
+							</div>
+								<a class="action-btn-power" href="#!"><span style="width: 50%" class="btn btnRadius diagonalLeftInDown" draggable='true' >
+									<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_up</i>
+								</span></a>
+								
+
+							</div>
+						</div>
+					
+					<div class="bottomAction">
+						<a class="action-btn-power" href="#!"  style="position: relative; transform: rotate(-45deg); margin-left: -95px;"><span class="btn btnRadius diagonalLeftOutDown"  draggable='true'>
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_left</i>
+						</span></a>
+						
+					<a class="action-btn-power" href="#!" style="position: relative; transform: rotate(45deg); margin-right: -95px;"><span class="btn btnRadius diagonalRightOutDown" draggable='true'>
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_right</i>
+					</span></a>
+
+					</div>
+				</div>
+			</div>
+
+			
+			<!-- Container onde coloca-se edição gradien -->
+			<div class="boxGradient tab item-tab">
+				<h2>Manipulando Gradient</h2>
+				<div class="controlOfColorsIndex">
+						<a href="#!" style="background-color: #fdd835;" class="btnPaletControlG activoActionG" data-colorIndex='0' >
+							<i class="material-icons">color_lens</i>
+						</a>
+						<a href="#!" style="background-color: #e040fb;" class="btnPaletControlG " data-colorIndex='1' >
+							<i class="material-icons">color_lens</i>
+						</a>
+						<div class="otherControlG">
+							
+						</div>
+						<a href="#!" style="background: linear-gradient(to right,#fdd835,#e040fb);" class="btnPaletControlG" data-colorIndex='10' >
+							<i class="material-icons">keyboard_arrow_right</i>
+						</a>
+						<a href="#!" class="btnPaletControlAddG addColorPalleteG">
+							<i class="material-icons">add</i>
+						</a>
+					</div>
+				<a class="action-btn-power" href="#!">
+					<span class="btn btnGradient UpGradient">
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_up</i>
+					</span>
+				</a>				
+
+				<div class="contentGradientAction">
+					<a class="action-btn-power" href="#!">
+						<span class="btn btnGradient LeftGradient">
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_left</i>
+						</span>
+					</a>
+					
+					<div class="caixaGradient" style="">
+						<div class="caixaActionGradient">
+						<div class="paletaOfColors">
+							<button class="a ag material1" data-maven='0'></button>
+							<button class="a ag material2" data-maven='1'></button>
+							<button class="a ag material3" data-maven='2'></button>
+							<button class="a ag material4" data-maven='3'></button>
+							<button class="a material5" data-maven='4'></button>
+							<button class="a ag material6" data-maven='5'></button>
+							<button class="a ag material7" data-maven='6'></button>
+							<button class="a ag material8" data-maven='7'></button><br>
+							<button class="a ag material9" data-maven='8'></button>
+							<button class="a ag material10" data-maven='9'></button>
+							<button class="a ag material11" data-maven='10'></button>
+							<button class="a ag material12" data-maven='11'></button>
+							<button class="a ag material13" data-maven='12'></button>
+							<button class="a ag material14" data-maven='13'></button>
+							<button class="a ag material15" data-maven='14'></button>
+							<button class="a ag material16" data-maven='15'></button><br>
+							<button class="a ag material17" data-maven='16'></button>
+							<button class="a ag material18" data-maven='17'></button>
+							<button class="a ag material19" data-maven='18'></button>
+							<button class="a ag material20" data-maven='19'></button>
+							<button class="a ag material21" data-maven='20'></button>
+							<button class="a ag material22" data-maven='21'></button>
+							<button class="a ag material23" data-maven='22'></button>
+							<button class="a ag material24" data-maven='23'></button><br><br>
+						</div>
+						<input style="padding-left: 8px;" type="text" id="colorInput" placeholder="Cor">
+						<button id="add"><i class="material-icons"> history </i></button>
+						</div>
+					</div>
+					
+					<a class="action-btn-power" href="#!">
+						<span class="btn btnGradient RightGradient">
+							<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_right</i>
+						</span>
+					</a>
+				</div>
+
+				<a class="action-btn-power" href="#!">
+					<span class="btn btnGradient DownGradient">
+						<i class="material-icons" style="font-size: 4rem;">keyboard_arrow_down</i>
+					</span>
+				</a>
+			</div>
+
+
+
+		</section>
+		<section class="content" id="help">
+			<div class="modal-content">
+
+                <h4 class="light"> Informação App</h4>
+                <hr> 
+        		<p><i class="material-icons left">people</i>Aplicação desenvolvida por <a href="http://mavendeveloper.my-style.in">Aguinaldo Mavenda</a> com o objectivo de simplificar o trabalho de criar <a>gradientes, box-shadow e border-radius.</a></p>
+
+        		<p><i class="material-icons left">assignment_turned_in</i>Cria o efeito que deseja de forma grafica e obtenha o <a>codigo em css.</a></p>
+        		
+        		<p><i class="material-icons left">share</i>O <a>objectivo principal</a> é tornar o trabalho de estilização de caixas rápido e eficaz. <a>Ciência da Computação</a></p>
+        		
+        		<p><i class="material-icons left">build</i>No momento esse App tem suporte para a criação de <a>multiplas camadas de sombras, ajustamento de bordas e gradientes lineares.</a> </p>
+ 
+        		<p><i class="material-icons left">create_new_folder</i>Olha esse App surgiu de uma forma ingraçada. É que Eu não entendia como foncionava a criação de <a> Box Shadow</a> e nenhum pouco de <a>gradient com CSS </a> e  <a>achava e continuo achar</a> o processo de criação muito chato ao fazer na mão, então porque não automatizar? Se desejares ajudar na evolução desta App,  este é o link - > <a href="https://github.com/aguinaldomavenda0/driveParaTodos" target="new"> Click-me </a> para o repositorio no gitHub.</p>
+        		
+        		<p><i class="material-icons left">settings</i>Por ser informação muito cuidadosa, não é permitido, criar <a href="#!">pastas e ficheiros</a> dentro da pasta 1º, 2º, 3º e 4º ANO, o upload para estas pastas é apenas direicto exclusivo do <a target="Aguinaldo Mavenda" href="https://fb.me/mav3nda">administrador</a>. 
+      			</p>
+
+      			<br>
+      			<br>
+                <h4 class="light"> Atenção</h4>
+                <hr> 
+                <p><span><i class="material-icons left">info</i>A app é dividida por 3Tabs, </span>
+                	<br><a><i class="material-icons">check</i>Box Shadow:</a> para colocar sombras em caixas.
+                	<br><a><i class="material-icons">check</i>Border Radius:</a> para manipular as bordas em caixas.
+                	<br><a><i class="material-icons">check</i>Gradient:</a> para atribuir um gradient em caixas.
+                	<br>
+                	<img src="maven/0.png">
+                	<br><a><i class="material-icons">brightness_2 brightness_6</i> Tema:</a> Estas opções te permitem trocar de Modo Escura, para claro.
+      			</p>
+      			<br>
+      			<br>
+      			<br>
+      			<hr>
+      			<br>
+      			<br>
+      			<p><span><i class="material-icons left">blur_on</i>Menu Box Shadow</span>
+      			<br>
+                	
+                	<br>
+                	<img src="maven/1.png">
+                	<br>
+                	<br><a><i class="material-icons">color_lens</i></a> Color Lens: Opção que permite trocar cor da sombra.
+                	<br><a><i class="material-icons">add</i></a> Add Color: Opção que permite adiconar uma nova cor a sombra.
+                	<br><a><i class="material-icons">blur_on</i></a> Blur On: Opção que permite expalhar a sombra.
+                	<br><a><i class="material-icons">blur_off</i></a> Blur Off: Opção que permite juntar a sombra.
+                	<br><a><i class="material-icons">zoom_out_map</i></a> Expandir: Opção que permite expandir a sombra.
+                	<br><a><i class="material-icons">fullscreen_exit</i></a> Expandir Off: Opção que permite diminuir a expanção da sombra.
+                	<br><a><i class="material-icons">keyboard_arrow_up keyboard_arrow_right keyboard_arrow_left keyboard_arrow_down</i></a> Opção que permitem movimentar sombra selecionada      	<br>
+                	<br><span>Para escolher uma nova cor basta apenas clicar escolher uma das cores da paleta de cores ou insirir a cor que deseja. O css gerado para box-shadow também serve para text-shadow</span>
+      			</p>
+      			
+      			<br>
+      			<br>
+      			<br>
+      			<hr>
+      			<br>
+      			<br>
+      			<p><span><i class="material-icons left">brightness_1</i>Menu Border Radius</span>
+                	
+                	<br>
+                	<br>
+                	<img src="maven/2.png">
+                	<br>
+                	 
+                	<br>
+
+                	<a><i class="material-icons">keyboard_arrow_up keyboard_arrow_right keyboard_arrow_left keyboard_arrow_down</i></a> Opção que permitem movimentar borda no lado selecionado      	<br>
+
+                	<br><span>Atenção que a opção de clicar e arrastar também fonciona caso não quer fazer vários clicks.</span>
+      			</p>
+      			
+      			<br>
+      			<br>
+      			<br>
+      			<hr>
+      			<br>
+      			<br>
+      			<p><span><i class="material-icons left">gradient</i>Menu Gradient</span>
+      			<br>
+                	
+                	<br>
+                	<img src="maven/3.png">
+                	<br><a><i class="material-icons">color_lens</i></a> Color Lens: Opção que permite trocar cor da sombra.
+                	<br><a><i class="material-icons">add</i></a> Add Color: Opção que permite adiconar uma nova cor a sombra. 
+                	<br><a><i class="material-icons">keyboard_arrow_up keyboard_arrow_right keyboard_arrow_left keyboard_arrow_down</i></a> Opção que permitem escolher a direção do gradient      	<br>
+                	<br><span>Para escolher uma nova cor basta apenas clicar escolher uma das cores da paleta de cores ou insirir a cor que deseja.</span>
+                	 <br>
+      			</p>
+      			
+      			<br>
+      			<br>
+      			<br>
+      			<hr>
+      			<br>
+      			<br>
+                <p><span><i class="material-icons left"> info</i>A app tem um menu footer dividida por 4Tabs, </span><br>
+                	<br><a><i class="material-icons">extension</i>CSS:</a> gera todo o resultado em css.
+                	<br><a><i class="material-icons">history</i>Reset:</a> para reiniciar e apagar todo o trabalho feito.
+                	<br><a><i class="material-icons">help_outline</i>Ajuda:</a> bem, se estas a ler isso agpoa é porque e já encontrara a ajuda que precisa.
+                	<br><a><i class="material-icons">dvr</i>Salvos :</a> todos os projectos que foram salvos forma guardados aqui.
+                	<br>
+                	<img src="maven/4.png">
+                	 <br>
+      			</p>
+
+      			<br>
+      			<br>
+      			<br>
+      			<hr>
+      			<br>
+      			<br>
+                <p><span><i class="material-icons left"> eyes</i>Janela Preview ou Copy Css </span>
+                	<br>
+                	<img src="maven/5.png">
+                	<br><a><i class="material-icons">brightness_2 brightness_6</i> Tema:</a> Estas opções te permitem trocar de Modo Escura, para claro.
+      			</p>
+  </div>   
+		</section>
+		<div class="section-btn-float">
+			<button class="btnFloat" id="cssResult">
+				<i style="margin-right: 5px" class="material-icons">extension</i>CSS
+			</button>
+			<button class="btnFloat btnResetForAll">
+				<i class="material-icons" style="margin-right: 5px">history</i>Reset
+			</button>
+			<button class="btnFloat" id="link" data-maven="#help">
+				<i class="material-icons" style="margin-right: 5px">help_outline</i>Ajuda
+			</button>
+			<button class="btnFloat" onclick="window.location.href='feed.html'">
+				<i style="margin-right: 5px" class="material-icons">dvr</i>Salvos
+			</button>
+			
+			
+		</div>
+
+		<div id="slide-all" >
+			<button id="btnCloseModal"><i class="material-icons">close</i></button>
+			<div id="slide">
+				
+			<div class="top">
+				<h2 class="iSlide-title">Resultado em CSS</h2>
+			</div>
+			<div class="corpo">
+				<div id="cardObjectPreview" style="box-shadow: 0px 4px 20px 2px #cf4225;
+    border-radius: 6px 122px 4px 108px;
+    background: linear-gradient( to right, #fdd835, #e040fb );"></div>	
+				<div class="iSlide">
+				 { <br><br>
+				 	<p style=" margin-left:25px"   id="resultMessage">
+				 		 
+				 	</p>
+				 	<br><br>
+				 }
+				</div>
+			</div>
+			<div id="actionControllerSlide">
+				<button class="btnDiferent" id="copiarText" data-maven="resultMessage"><i class="material-icons">content_copy</i> Copiar</button>
+				<button class="btnDiferent" id="saveElement"><i class="material-icons">save</i> Salvar</button>
+			</div>
+			</div>
+			
+		</div>
+
+		<script type="text/javascript" src="./js/index.js"></script>
+		<script type="text/javascript" src="./js/colors.js"></script>
+		<script type="text/javascript" src="./js/load.js"></script>
+		<script type="text/javascript" src="./js/utilitySave.js"></script>
+		<script type="text/javascript">
+			let d = document.getElementById('link')
+			d.addEventListener('click',(e)=>{
+				const id = e.currentTarget.getAttribute('data-maven')
+				const section = document.querySelector(id).offsetTop
+				window.scroll({top:(Number(section)-50),behavior:'smooth'})
+			})
+		</script>
+	</body>
+
+</html>
