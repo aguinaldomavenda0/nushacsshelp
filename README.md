@@ -5,11 +5,15 @@ Aplicação desenvolvida por [Aguinaldo Mavenda](http://www.mavendeveloper.my-st
 
  Cria o efeito que deseja de forma grafica e obtenha o codigo em css.
 
- O objectivo principal é tornar o trabalho de estilização de caixas rápido e eficaz. Ciência da Computação
+ O objectivo principal é tornar o trabalho de estilização de caixas rápido e eficaz.
 
  No momento esse App tem suporte para a criação de multiplas camadas de sombras, ajustamento de bordas e gradientes lineares.
 
- Olha esse App surgiu de uma forma ingraçada. É que Eu não entendia como foncionava a criação de Box Shadow e nenhum pouco de gradient com CSS e achava e continuo achar o processo de criação muito chato ao fazer na mão, então porque não automatizar? Se desejares ajudar na evolução desta App, este é o link - > Click-me para o repositorio no gitHub.
+ Olha esse App surgiu de uma forma ingraçada. É que Eu não entendia como foncionava a criação de Box Shadow e nenhum pouco de gradient com CSS e achava e continuo achar o processo de criação muito chato ao fazer na mão, então porque não automatizar? Teste [este é o link](http://mavendeveloper.my-style.in/box/) e se desejares ajudar na evolução desta App estou aberto.
 
- Por ser informação muito cuidadosa, não é permitido, criar pastas e ficheiros dentro da pasta 1º, 2º, 3º e 4º ANO, o upload para estas pastas é apenas direicto exclusivo do administrador.
+## Atenção
+
+- <strong>Box Shadow:</strong> para colocar sombras em caixas.
+- Border Radius: para manipular as bordas em caixas.
+- Gradient: para atribuir um gradient em caixas.
 
